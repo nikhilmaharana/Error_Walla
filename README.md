@@ -149,7 +149,22 @@ git push origin main
 
 </div>
 
-<!-- ===================== ANIMATION ===================== -->
+<!-- ===================== FOOTER ===================== -->
+<div align="center">
+
+  <h3 style="
+    color:#ff4b2b;
+    margin-top:30px;
+    animation: pulse 2s infinite;
+  ">
+    💡 Fail fast. Fix faster. Learn together.
+  </h3>
+
+  <p><b>Happy Coding ⚛️🔥</b></p>
+
+</div>
+
+<!-- ===================== STYLES ===================== -->
 <style>
 @keyframes glow {
   from {
@@ -159,4 +174,20 @@ git push origin main
     text-shadow: 0 0 20px #ff416c;
   }
 }
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.85;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
 </style>
+
