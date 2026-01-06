@@ -159,30 +159,3 @@ git push origin main
   <p><b>Happy Coding ⚛️🔥</b></p>
 
 </div>
-
-<!-- ===================== STYLES ===================== -->
-<style>
-@keyframes glow {
-  from {
-    text-shadow: 0 0 5px #ff4b2b;
-  }
-  to {
-    text-shadow: 0 0 20px #ff416c;
-  }
-}
-
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-    opacity: 1;
-  }
-  50% {
-    transform: scale(1.05);
-    opacity: 0.85;
-  }
-  100% {
-    transform: scale(1);
-    opacity: 1;
-  }
-}
-</style>
