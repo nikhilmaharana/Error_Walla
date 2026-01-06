@@ -1,4 +1,3 @@
-
 <!-- ===================== HEADER ===================== -->
 <div align="center">
 
@@ -8,11 +7,12 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: glow 2s ease-in-out infinite alternate;
+    margin-bottom: 10px;
   ">
     🚀 Error_Walla
   </h1>
 
-  <p style="font-size: 1.2rem; color: #555;">
+  <p style="font-size: 1.2rem; color: #555; margin-bottom: 15px;">
     Learning React • Practicing GitHub Collaboration • Growing Together
   </p>
 
@@ -30,13 +30,13 @@
 <p>
 <b>Error_Walla</b> is a collaborative practice repository created to learn
 <b>React.js</b> while mastering <b>real-world GitHub teamwork</b>.
-This repo follows industry-style discipline to help us grow as developers.
+This repository follows industry-style discipline to help us grow as developers.
 </p>
 
 <ul>
   <li>⚛️ Learn React from basics to advanced</li>
   <li>🤝 Practice GitHub collaboration</li>
-  <li>🧠 Understand team workflows</li>
+  <li>🧠 Understand real team workflows</li>
   <li>🚫 Avoid conflicts using folder ownership</li>
 </ul>
 
@@ -70,7 +70,7 @@ Error_Walla/
 ├── VK_87/
 </pre>
 
-<p>Each member works <b>only inside their assigned folder</b>.</p>
+<p><b>Rule:</b> Each member works <b>only inside their assigned folder</b>.</p>
 
 <hr/>
 
@@ -78,18 +78,22 @@ Error_Walla/
 <h2>🧠 Folder Ownership Rules</h2>
 
 <table>
-<tr>
-<td>✅</td><td>Work only in your folder</td>
-</tr>
-<tr>
-<td>❌</td><td>Do not edit others’ folders</td>
-</tr>
-<tr>
-<td>⚠️</td><td>Pull before every push</td>
-</tr>
-<tr>
-<td>📌</td><td>Remove <code>.gitkeep</code> only after adding real files</td>
-</tr>
+  <tr>
+    <td>✅</td>
+    <td>Work only in your assigned folder</td>
+  </tr>
+  <tr>
+    <td>❌</td>
+    <td>Do not edit others’ folders</td>
+  </tr>
+  <tr>
+    <td>⚠️</td>
+    <td>Always pull before pushing</td>
+  </tr>
+  <tr>
+    <td>📌</td>
+    <td>Remove <code>.gitkeep</code> only after adding real files</td>
+  </tr>
 </table>
 
 <hr/>
@@ -106,11 +110,11 @@ border-radius:10px;
 git pull origin main
 # work inside your folder
 git add &lt;your_folder&gt;
-git commit -m "Your meaningful message"
+git commit -m "Meaningful commit message"
 git push origin main
 </pre>
 
-<p><b>Rule:</b> Always <b>PULL → WORK → COMMIT → PUSH</b></p>
+<p><b>Golden Rule:</b> <b>PULL → WORK → COMMIT → PUSH</b></p>
 
 <hr/>
 
@@ -134,20 +138,12 @@ git push origin main
   <li>React Components & JSX</li>
   <li>Props & State</li>
   <li>Hooks (useState, useEffect)</li>
-  <li>Folder structuring</li>
+  <li>Clean folder structuring</li>
   <li>Team-based Git workflow</li>
-  <li>Clean commit practices</li>
+  <li>Professional commit practices</li>
 </ul>
 
 <hr/>
-
-<!-- ===================== FOOTER ===================== -->
-<div align="center">
-
-  <h3 style="color:#ff4b2b;">💡 Fail fast. Fix faster. Learn together.</h3>
-  <p><b>Happy Coding ⚛️🔥</b></p>
-
-</div>
 
 <!-- ===================== FOOTER ===================== -->
 <div align="center">
@@ -190,4 +186,3 @@ git push origin main
   }
 }
 </style>
-
