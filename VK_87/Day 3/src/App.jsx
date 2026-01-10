@@ -4,8 +4,8 @@ import UserInfo from "./UserInfo";
 
 function App() {
   const user = {
-    name: "Jagamohan",
-    role: "Data scientist apsirant"
+    name: "Nikhil",
+    role: "Frontend Developer"
   };
 
   return (
