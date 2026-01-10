@@ -4,7 +4,7 @@ import UserInfo from "./UserInfo";
 
 function App() {
   const user = {
-    name: "Nikhil",
+    name: "Vivek",
     role: "Frontend Developer"
   };
 
