@@ -17,6 +17,6 @@ function VirtualizedList() {
       {Row}
     </List>
   )
-}
+} 
 
 export default VirtualizedList
