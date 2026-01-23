@@ -1,3 +1,5 @@
+# CI workflow
+
 name: React CI Pipeline
 
 on:
