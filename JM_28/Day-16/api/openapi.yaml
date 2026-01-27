@@ -1,0 +1,59 @@
+openapi: 3.0.3
+info:
+  title: Capstone Project API
+  description: API contract for React frontend capstone project
+  version: 1.0.0
+
+servers:
+  - url: http://localhost:5000/api
+
+paths:
+  /login:
+    post:
+      summary: User login
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                  example: test@example.com
+                password:
+                  type: string
+                  example: 123456
+      responses:
+        "200":
+          description: Login successful
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Login successful
+        "401":
+          description: Invalid credentials
+
+  /users:
+    get:
+      summary: Get all users
+      responses:
+        "200":
+          description: List of users
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    id:
+                      type: integer
+                    name:
+                      type: string
+                    email:
+                      type: string
