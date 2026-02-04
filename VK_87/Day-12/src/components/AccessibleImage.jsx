@@ -3,7 +3,7 @@ function AccessibleImage() {
     <img
       src="/FxIu2QPXoAAePbx.jpg"
       alt="Demo placeholder image"
-      width="250px"
+      width="351px"
     />
   )
 }
